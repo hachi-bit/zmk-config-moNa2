@@ -3,6 +3,8 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/petejohanson
     - name: sayu-hub
+      url-base: https://github.com/hachi-bit
+    - name: hachi-bit
       url-base: https://github.com/sayu-hub
     - name: caksoylar  # <-- new entry
       url-base: https://github.com/caksoylar  
@@ -12,7 +14,7 @@ manifest:
       revision: feat/pointers-move-scroll
       import: app/west.yml
     - name: zmk-pmw3610-driver
-      remote: sayu-hub
+      remote: hachi-bit
       revision: main
     - name: zmk-rgbled-widget  # <-- new entry
       remote: caksoylar
