@@ -3,9 +3,9 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/petejohanson
     - name: sayu-hub
-      url-base: https://github.com/hachi-bit
-    - name: hachi-bit
       url-base: https://github.com/sayu-hub
+    - name: hachi-bit
+      url-base: https://github.com/hachi-bit
     - name: caksoylar  # <-- new entry
       url-base: https://github.com/caksoylar  
   projects:
